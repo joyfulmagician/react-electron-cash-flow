@@ -1,0 +1,44 @@
+.mask {
+  border: none;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+  font-size: 0.8rem;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.mask:focus {
+  outline: none;
+  border-bottom: 1px solid #3dccce;
+  border-radius: 4px;
+}
+
+.tr-style {
+  padding: 10px !important;
+  border: 1px solid #000 !important;
+}
+
+th {
+  padding: 50px;
+  padding-bottom: 20px;
+}
+
+td {
+  max-width: 150px;
+  height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: height 0.4s;
+  transition: all ease 0.7s;
+}
+
+td:hover {
+  height: 45px;
+  max-width: 150px;
+  overflow: auto;
+  text-overflow: ellipsis;
+  white-space: initial;
+}
